@@ -77,7 +77,7 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-   border: 0;
+   border: 2;
    font: inherit;
    font-size: 100%;
    font-style: inherit;
@@ -87,6 +87,18 @@ table, caption, tbody, tfoot, thead, tr, th, td {
    padding: 0;
    vertical-align: baseline;
 }
+table#th01{
+    border-color:blue;
+    background-color:aliceblue;
+}
+table#th02{
+    background-color:aliceblue;
+}
+table#th03{
+border:1;
+    background-color:aliceblue;
+}
+
 html {
    overflow-y: scroll; /* Keeps page centred in all browsers regardless of content height */
    -webkit-text-size-adjust: 100%; /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
